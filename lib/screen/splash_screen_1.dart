@@ -6,7 +6,9 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: SafeArea(
+        child: Center(
+          child: Column(
         children: [
           SizedBox(height: 50),
           Container(
@@ -19,6 +21,8 @@ class MySplashScreen extends StatelessWidget {
           ),
           //tambahkan disini untuk widget widget lainnya nanti
         ],
+      ),
+        ),
       ),
     );
   }
