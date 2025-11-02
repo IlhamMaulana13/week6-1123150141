@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:splash_screen/screen/splash_screen_3.dart';
+//import 'package:latihan_spash_uts/screen/splash_screen_2.dart';
 
-class MySplashScreen2 extends StatelessWidget {
-  const MySplashScreen2({super.key});
+class MySplashScreen3 extends StatelessWidget {
+  const MySplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class MySplashScreen2 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.amber,
                   image: DecorationImage(
-                    image: AssetImage("assets/images/image1.jpeg"),
+                    image: AssetImage("assets/images/image3.jpeg"),
                     fit: BoxFit.cover,
                   ),
             ),
@@ -28,7 +28,7 @@ class MySplashScreen2 extends StatelessWidget {
 
               // 🔹 Judul
               const Text(
-                "Welcome 2",
+                "Welcome 3",
                 style: TextStyle(
                   fontSize: 32.0,
                   color: Colors.black,
@@ -105,9 +105,7 @@ class MySplashScreen2 extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      Navigator.push(context,
-                      MaterialPageRoute(builder: (contex) => MySplashScreen3()),
-                      );
+                      
                     },
                     child: const Text(
                       "Continue",
