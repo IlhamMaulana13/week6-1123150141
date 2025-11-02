@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:splash_screen/screen/splash_screen_2.dart';
+//import 'package:latihan_spash_uts/screen/splash_screen_2.dart';
 
-class MySplashScreen extends StatelessWidget {
-  const MySplashScreen({super.key});
+class MySplashScreen2 extends StatelessWidget {
+  const MySplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class MySplashScreen extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.amber,
                   image: DecorationImage(
-                    image: AssetImage("assets/images/bonaparte.jpg"),
+                    image: AssetImage("assets/images/image1.jpeg"),
                     fit: BoxFit.cover,
                   ),
             ),
