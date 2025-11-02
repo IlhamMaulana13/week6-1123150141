@@ -51,6 +51,42 @@ class MySplashScreen extends StatelessWidget {
                 ),
               ),
 
+              const SizedBox(height: 40),
+
+              // 🔹 3 Bullet Indicator
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 15,
+                    height: 15,
+                    margin: const EdgeInsets.symmetric(horizontal: 4),
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFF84a98c), // aktif
+                    ),
+                  ),
+                  Container(
+                    width: 15,
+                    height: 15,
+                    margin: const EdgeInsets.symmetric(horizontal: 4),
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFFedede9), // non-aktif
+                    ),
+                  ),
+                  Container(
+                    width: 15,
+                    height: 15,
+                    margin: const EdgeInsets.symmetric(horizontal: 4),
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFFedede9), // non-aktif
+                    ),
+                  ),
+                ],
+              ),
+
         ],
       ),
         ),
