@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:latihan_spash_uts/screen/splash_screen_2.dart';
+import 'package:splash_screen/screen/login_screen.dart';
 
 class MySplashScreen3 extends StatelessWidget {
   const MySplashScreen3({super.key});
@@ -73,7 +73,7 @@ class MySplashScreen3 extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(horizontal: 4),
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF84a98c), // non-aktif
+                      color: Color(0xFFedede9), // non-aktif
                     ),
                   ),
                   Container(
@@ -82,7 +82,7 @@ class MySplashScreen3 extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(horizontal: 4),
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFedede9), // non-aktif
+                      color: Color(0xFF84a98c), // non-aktif
                     ),
                   ),
                 ],
@@ -105,7 +105,14 @@ class MySplashScreen3 extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      
+                    // ✅ Pindah ke halaman login dan hapus semua route sebelumnya
+                      Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const LoginScreen(),
+                        ),
+                        (Route<dynamic> route) => false,
+                      );  
                     },
                     child: const Text(
                       "Continue",
