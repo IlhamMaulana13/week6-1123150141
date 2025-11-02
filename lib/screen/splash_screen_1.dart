@@ -12,8 +12,8 @@ class MySplashScreen extends StatelessWidget {
         children: [
           SizedBox(height: 50),
           Container(
-            width: 230,
-            height: 230,
+            width: 240,
+            height: 240,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.amber,
@@ -23,7 +23,17 @@ class MySplashScreen extends StatelessWidget {
                   ),
             ),
           ),
-          //tambahkan disini untuk widget widget lainnya nanti
+          const SizedBox(height: 20),
+
+              // 🔹 Judul
+              const Text(
+                "Welcome",
+                style: TextStyle(
+                  fontSize: 32.0,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
         ],
       ),
         ),
