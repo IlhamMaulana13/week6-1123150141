@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
               // 🔹 Logo atau Icon
               Center(
                 child: Image.asset(
-                  "assets/images/image1.jpeg",
+                  "assets/images/padlock.png",
                   width: 120,
                   height: 120,
                   fit: BoxFit.cover,
