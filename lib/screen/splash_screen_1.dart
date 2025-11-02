@@ -12,11 +12,15 @@ class MySplashScreen extends StatelessWidget {
         children: [
           SizedBox(height: 50),
           Container(
-            width: 250,
-            height: 250,
+            width: 230,
+            height: 230,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.amber,
+                  image: DecorationImage(
+                    image: AssetImage("assets/images/bonaparte.jpg"),
+                    fit: BoxFit.cover,
+                  ),
             ),
           ),
           //tambahkan disini untuk widget widget lainnya nanti
