@@ -1,16 +1,40 @@
-# splash_screen
+# 📱 Splash Screen Flutter
 
-A new Flutter project.
+## 👤 Identitas Mahasiswa
 
-## Getting Started
+* **Nama:** Muhammad Ilham Maulana
+* **NIM:** 1123150141
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🖼️ Hasil Screenshot
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Tampilan halaman splash screen aplikasi:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Splash Screen](assets/images/splash_screen_2.png)
+
+> (Pastikan file hasil tangkapan layar kamu disimpan di folder:
+> `screenshots/splash_screen_2.png`)
+
+---
+
+## ⚙️ Cara Menjalankan Project
+
+1. Buka project di **Android Studio** atau **VS Code**.
+2. Pastikan perangkat (emulator atau HP) sudah terhubung.
+3. Jalankan perintah berikut di terminal:
+
+   ```bash
+   flutter run
+   ```
+4. Aplikasi akan berjalan langsung di perangkat.
+
+---
+
+## 🧾 Catatan
+
+Tidak ada kendala selama pengerjaan project.
+
+---
+
+✨ *Ujian Flutter — Institut Teknologi & Bisnis Bina Sarana Global* ✨
